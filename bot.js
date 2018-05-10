@@ -21,7 +21,7 @@ client.on('message', message => {
 
 
 
-client.on("ready", () => {
+client.on('ready', () => {
     var guild;
     while (!guild)
         guild = client.guilds.get("425624230785187842");
@@ -58,12 +58,6 @@ client.on("guildMemberAdd", (member) => {
             dat[Inv] = Invite.uses;
        
        });
-    });
-});
-
-
-
-
 
 
 
